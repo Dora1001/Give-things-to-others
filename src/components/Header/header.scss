@@ -1,0 +1,59 @@
+@import "../../styles/fonts";
+@import "../../styles/variables";
+
+
+.header {
+  display: flex;
+  justify-content: center;
+
+}
+
+.header-content {
+  flex-direction: column;
+  flex: 1;
+
+  h1 {
+    font-family: $fontOpensans;;
+    text-align: center;
+    color: #3C3C3C;
+    font-weight: normal;
+
+  }
+
+
+  li {
+    font-family: $fontOpensans;
+    font-size: 15px;
+
+    display: inline;
+    padding: 20px;
+  }
+
+}
+
+
+.header-title {
+  justify-content: center;
+  display: flex;
+  height: 400px;
+  align-items: center;
+
+}
+
+.header-nav {
+  flex-direction: row;
+
+}
+
+
+.header-img {
+  object-fit: cover;
+  object-position: -20% 0;
+  flex: 1;
+}
+
+.header-img-one {
+  max-width: 140%;
+  margin: 0 -40%;
+
+}
