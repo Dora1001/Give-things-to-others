@@ -1,0 +1,45 @@
+@import "../../styles/fonts";
+@import "../../styles/variables";
+
+
+.about-cointainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: $fontsColorBgc;
+
+  .about-box-txt{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+  }
+  .about-box-img{
+    flex: 1;
+
+  }
+  .about-img-one {
+    width: 100%;
+
+  }
+
+  h1 {
+    font-family: $fontOpensans;;
+    text-align: center;
+    color: $fontsColor;
+    font-weight: normal;
+    padding: 5px;
+  }
+
+  span {
+    font-family: $fontOpensans;
+    font-size: 20px;
+    text-align: center;
+    color: $fontsColor;
+    font-weight: normal;
+    padding: 5px;
+    margin-top: 20px;
+  }
+
+}

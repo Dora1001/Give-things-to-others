@@ -1,0 +1,112 @@
+@import "../../styles/fonts";
+@import "../../styles/variables";
+
+
+.help-cointainer {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-family: $fontOpensans;;
+    text-align: center;
+    color: $fontsColor;
+    font-weight: normal;
+  }
+
+  .help-txt {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  span {
+    font-family: $fontOpensans;
+    font-size: 20px;
+    text-align: center;
+    color: $fontsColor;
+    font-weight: normal;
+    padding: 5px;
+    margin-top: 20px;
+  }
+
+}
+
+.help-btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+  .help-btn-one {
+    width: 250px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 30px;
+    margin: 10px;
+    font-size: 19px;
+    color: $fontsColor;
+
+  }
+
+}
+
+.help-tab {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+
+  .help-tab-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+
+  .help-tab-one-left {
+    text-align: left;
+    font-size: 23px;
+    font-weight: 300;
+
+  }
+
+  .help-tab-one-right {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 300;
+
+  }
+
+  p {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  hr {
+    width: 750px;
+    color: $fontsColor;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.help-box-nr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+  .help-btn-nr {
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 19px;
+    color: $fontsColor;
+  }
+
+}

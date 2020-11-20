@@ -32,7 +32,16 @@ export const Header = () => {
                 </nav>
                 <div className="header-title">
                     <h1>Zacznij pomagać! <br/> Oddaj niechciane rzeczy w zaufane ręce</h1>
+
+                    <img className="header-img-two" src={"../../images/Decoration.svg"} alt="oddam w dobre rece"/>
+
                 </div>
+                <div className="header-btns">
+                  <button className="header-btn-one"> ODDAJ <br/> RZECZY </button>
+                    <button className="header-btn-one"> ZORGANIZUJ <br/> ZBIÓRKĘ </button>
+
+                </div>
+
             </div>
 
 

@@ -1,0 +1,44 @@
+@import "../../styles/fonts";
+@import "../../styles/variables";
+
+.counter-cointainer {
+  display: flex;
+  justify-content: space-around;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("3_Columns_Background.png");
+
+
+  .counter-cointainer-box {
+    text-align: center;
+
+    h2 {
+      color: #5e5322;
+      font-size: 70px;
+      font-family: $fontOpensans;
+      font-weight: 300;
+      padding: 5px;
+    }
+
+    h3 {
+      color: #5e5322;
+      font-size: 18px;
+      font-family: $fontOpensans;
+      font-weight: normal;
+      margin: 5px;
+    }
+
+    p {
+      color: #5e5322;
+      font-size: 16px;
+      font-family: $fontOpensans;
+      font-weight: 300;
+      padding: 15px;
+      margin-bottom: 15px;
+
+    }
+
+  }
+
+}
