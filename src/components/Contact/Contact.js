@@ -13,6 +13,7 @@ export const Contact = () => {
             <div className="contact-box-txt">
                 <h1>Skontaktuj się z nami</h1>
                 <img className="contact-img-two" src={"../../images/Decoration.svg"} alt="oddam w dobre rece"/>
+              
             </div>
 
 

@@ -9,6 +9,7 @@ export const Header = () => {
             </div>
             <div className="header-content">
                 <nav className="header-nav">
+                    <ul><li><a href="#" className="header-login"> Zaloguj </a></li><li><a href="#" className="header-login">Załóż konto</a></li></ul>
                     <ul>
                         <li>
                             Start
