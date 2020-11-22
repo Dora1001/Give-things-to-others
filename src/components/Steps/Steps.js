@@ -1,12 +1,13 @@
 import React from "react";
 import "./steps.scss"
+import {BrowserRouter as Router, Link as Link2} from "react-router-dom";
 
 
 
 export const Steps = () => {
     return (
 
-        <div className="steps-cointainer">
+        <div className="steps-cointainer" id="steps">
 <div className="steps-header">
         <h1>Wystarczą 4 proste kroki</h1>
     <img className="header-img-two" src={"../../images/Decoration.svg"} alt="oddam w dobre rece"/>
@@ -47,7 +48,9 @@ export const Steps = () => {
 
         </div>
             <div className="steps-box-btn">
-            <button className="steps-btn-one"> ODDAJ <br/> RZECZY </button>
+                <Router>
+                    <Link2 className="steps-btn-one" to="/login"> ODDAJ <br/> RZECZY </Link2>
+                </Router>
         </div>
         </div>
 

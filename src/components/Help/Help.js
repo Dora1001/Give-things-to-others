@@ -4,7 +4,7 @@ import "./help.scss"
 
 export const Help = () => {
     return (
-        <div className="help-cointainer">
+        <div className="help-cointainer" id="help">
             <h1>Komu pomagamy</h1>
             <img className="help-img-two" src={"../../images/Decoration.svg"} alt="oddam w dobre rece"/>
 
