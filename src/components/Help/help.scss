@@ -2,8 +2,8 @@
 @import "../../styles/variables";
 
 
-.help-cointainer {
 
+.help-cointainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,8 +17,8 @@
   }
 
   .help-txt {
-    display: flex;
-    justify-content: center;
+    margin: 0 150px 40px 150px;
+    text-align: center;
 
   }
 
@@ -55,7 +55,7 @@
 .help-tab {
   display: flex;
   flex-direction: column;
-  margin: 50px;
+  margin: 0;
 
   .help-tab-one {
     display: flex;
@@ -109,4 +109,36 @@
     color: $fontsColor;
   }
 
+}
+
+
+.help-btn-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+  border: 1px solid transparent;
+  background-color: white;
+  padding: 15px 20px 15px 20px;
+  margin: 10px;
+  font-size: 26px;
+  font-weight: 300;
+  color: $fontsColor;
+}
+
+button.help-btn-tab:hover {
+  color: #3C3C3C;
+  border: 1px solid black;
+}
+
+button.help-btn-tab:focus {
+  color: #3C3C3C !important;
+  border: 1px solid black;
+}
+
+button.help-btn-tab:active {
+  color: #3C3C3C;
+  border: 1px solid black;
 }

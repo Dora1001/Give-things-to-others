@@ -17,7 +17,7 @@ export const Header = () => {
                             <Link2 className="header-nav-link-login" to="/login"> Zaloguj</Link2>
                         </Router>
                         </li><Router>
-                        <li><Link2 className="header-nav-link-login"  to="/login">Załóż konto</Link2></li>
+                        <li><Link2 className="header-nav-link-login"  to="/register">Załóż konto</Link2></li>
                     </Router>
                     </ul>
                     <ul>
