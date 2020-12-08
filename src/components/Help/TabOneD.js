@@ -9,14 +9,14 @@ export const TabOneD = () => {
 
             <div className="Help-tab-first">
                 <div className="help-txt">
-                    <span>D</span>
+                    <span>Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</span>
                 </div>
 
                 <div className="help-tab-one">
 
                     <div className="help-tab-one-left">
 
-                        Fundacja "Dbam o zdrowie"
+                        Fundacja "Senior"
                         <p>Lorem ipsum</p>
                     </div>
 
@@ -29,7 +29,7 @@ export const TabOneD = () => {
                 <hr/>
                 <div className="help-tab-one">
                     <div className="help-tab-one-left">
-                        Fundacja "Dbam o zdrowie"
+                        Fundacja "Senior"
                         <p>Lorem ipsum</p>
 
                     </div>
@@ -44,7 +44,7 @@ export const TabOneD = () => {
                 <hr/>
                 <div className="help-tab-one">
                     <div className="help-tab-one-left">
-                        Fundacja "Dbam o zdrowie"
+                        Fundacja "Senior"
                         <p>Lorem ipsum</p>
                     </div>
 

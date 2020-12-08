@@ -6,7 +6,7 @@ import {Counter} from "../../components/Counter/Counter";
 import {Steps} from "../../components/Steps/Steps";
 import {AboutUs} from "../../components/AboutUs/AboutUs";
 import {Help} from "../../components/Help/Help";
-import {Contact} from "../../components/Contact/Contact";
+import {Contact} from "../../components/Contact/ContactForm";
 
 
 export const Home = () => {

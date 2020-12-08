@@ -2,6 +2,7 @@ import React from "react";
 import "./header.scss"
 import {Link} from 'react-scroll'
 
+
 import {BrowserRouter as Router, Link as Link2} from "react-router-dom";
 
 export const Header = () => {
@@ -13,12 +14,12 @@ export const Header = () => {
             <div className="header-content">
                 <nav className="header-nav">
                     <ul>
-                        <li><Router>
+                        <li>
                             <Link2 className="header-nav-link-login" to="/login"> Zaloguj</Link2>
-                        </Router>
-                        </li><Router>
+
+                        </li>
                         <li><Link2 className="header-nav-link-login"  to="/register">Załóż konto</Link2></li>
-                    </Router>
+
                     </ul>
                     <ul>
                         <li>

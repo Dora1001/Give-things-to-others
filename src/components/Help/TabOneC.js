@@ -9,14 +9,14 @@ export const TabOneC = () => {
 
             <div className="Help-tab-first">
                 <div className="help-txt">
-                    <span>C</span>
+                    <span>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery.</span>
                 </div>
 
                 <div className="help-tab-one">
 
                     <div className="help-tab-one-left">
 
-                        Fundacja "Dbam o zdrowie"
+                        Fundacja "KPH"
                         <p>Lorem ipsum</p>
                     </div>
 
@@ -29,7 +29,7 @@ export const TabOneC = () => {
                 <hr/>
                 <div className="help-tab-one">
                     <div className="help-tab-one-left">
-                        Fundacja "Dbam o zdrowie"
+                        Fundacja "KPH"
                         <p>Lorem ipsum</p>
 
                     </div>
@@ -44,7 +44,7 @@ export const TabOneC = () => {
                 <hr/>
                 <div className="help-tab-one">
                     <div className="help-tab-one-left">
-                        Fundacja "Dbam o zdrowie"
+                        Fundacja "KPH"
                         <p>Lorem ipsum</p>
                     </div>
 

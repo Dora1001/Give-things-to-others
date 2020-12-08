@@ -1,9 +1,8 @@
 import React, {useState, useEffect} from "react";
-import fire from "./fire";
-// import './login.scss';
+import db from "../../layouts/App/firebase";
 import Form from "./LoginForm";
 import {OddajRzeczy} from "../Oddaj/Oddaj-rzeczy";
-// import Signup from "../Signup/signup";
+
 
 export const Login = () => {
     const [user, setUser] = useState('');
@@ -12,6 +11,7 @@ export const Login = () => {
     const [emailError, setEmailError] = useState('');
     const [passwordError, setPasswordError] = useState('');
     const [hasAccount, setHasAccount] = useState(false);
+
 
     const clearInputs = () => {
         setEmail('');
@@ -25,7 +25,7 @@ export const Login = () => {
 
     const handleLogin = () => {
         clearErrors();
-        fire
+        db
             .auth()
             .signInWithEmailAndPassword(email, password)
             .catch(({code, message}) => {
@@ -45,7 +45,7 @@ export const Login = () => {
 
     const handleSignup = () => {
         clearErrors();
-        fire
+        db
             .auth()
             .createUserWithEmailAndPassword(email, password)
             .catch(err => {
@@ -63,11 +63,11 @@ export const Login = () => {
     };
 
     const handleLogout = () => {
-        fire.auth().signOut();
+        db.auth().signOut();
     };
 
     const authListener = () => {
-        fire.auth().onAuthStateChanged(user => {
+        db.auth().onAuthStateChanged(user => {
             if (user) {
                 clearInputs();
                 setUser(user);

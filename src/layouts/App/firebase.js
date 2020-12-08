@@ -1,18 +1,17 @@
 import firebase from "firebase";
 
 
-var firebaseApp = firebase.initializeApp( {
-    apiKey: "AIzaSyDNDuejqOA0OMDB4pLoAblkarI1XYFxpmw",
-    authDomain: "oddam-contactform.firebaseapp.com",
-    databaseURL: "https://oddam-contactform.firebaseio.com",
-    projectId: "oddam-contactform",
-    storageBucket: "oddam-contactform.appspot.com",
-    messagingSenderId: "979059500562",
-    appId: "1:979059500562:web:a77ff0b0c621f32d05dacb"
+const firebaseApp = firebase.initializeApp( {
+    apiKey: "AIzaSyBvrydp60aki3T7Jdhf14wfkB7DnR3dgYA",
+    authDomain: "hop-login.firebaseapp.com",
+    databaseURL: "https://hop-login.firebaseio.com",
+    projectId: "hop-login",
+    storageBucket: "hop-login.appspot.com",
+    messagingSenderId: "522183277390",
+    appId: "1:522183277390:web:d6278e6931616eb16c3c1f"
 });
 
 
-var db = firebaseApp.firestore();
+const db = firebaseApp//.firestore();
 
-
-export  { db };
+export default db;
