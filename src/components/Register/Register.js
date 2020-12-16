@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import db from "../../layouts/App/firebase";
 import {Form} from "./RegisterForm";
-import {OddajRzeczy} from "../Oddaj/Oddaj-rzeczy";
+import {Oddaj} from "../Oddaj/Oddaj-rzeczy";
 
 
 export const Register = () => {
@@ -86,7 +86,7 @@ export const Register = () => {
     return (
         <div className="login">
             {user ? (
-                <OddajRzeczy handleLogout={handleLogout} />
+                <Oddaj handleLogout={handleLogout} />
             ) : (
                 <Form email={email}
                       setEmail={setEmail}

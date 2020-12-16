@@ -2,8 +2,6 @@ import React from 'react';
 import "./loginForm.scss"
 import {Link as Link2} from "react-router-dom";
 
-import  "../Header/header.scss";
-
 
 export const Form = (props) => {
     const {

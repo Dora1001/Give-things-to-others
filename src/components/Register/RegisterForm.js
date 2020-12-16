@@ -1,5 +1,5 @@
 import React from 'react';
-import "./register.scss"
+import "./registerForm.scss"
 import {Link as Link2} from "react-router-dom";
 
 

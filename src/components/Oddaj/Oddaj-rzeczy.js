@@ -1,15 +1,18 @@
 import React from "react";
-import "./oddaj-rzeczy.scss"
 
+import {OddajAlert} from "./Oddaj-alert";
+import {OddajHeader} from "./Oddaj-header";
+import {OddajFormOne} from "./Oddaj-form-one";
 
-
-export const OddajRzeczy = ({handleLogout}) => {
-
+export const Oddaj = () => {
     return (
         <div>
-<h1>Oddaj</h1>
-    <button  onClick={handleLogout}>Log out</button>
-    </div>
+            <OddajHeader/>
+            <OddajAlert/>
+            <OddajFormOne/>
+        </div>
+    );
 
-)
 }
+
+

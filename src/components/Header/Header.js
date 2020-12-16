@@ -50,9 +50,9 @@ export const Header = () => {
 
                 </div>
                 <div className="header-btns">
-                    <Router>
+
                         <Link2 className="header-btn-one" to="/login"> ODDAJ <br/> RZECZY </Link2>
-                    </Router>
+
                     <Router>
                         <Link2 className="header-btn-one" to="/login">ZORGANIZUJ<br/>ZBIÓRKĘ</Link2>
                     </Router>

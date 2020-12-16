@@ -1,0 +1,189 @@
+@import "../../styles/fonts";
+@import "../../styles/variables";
+
+.oddaj-steps {
+  position: relative;
+  display: flex;
+
+
+  p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5px;
+
+  }
+
+}
+
+.oddaj-step-four {
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+
+  background-color: white;
+  padding: 5px;
+  margin: 0 0 0 15px;
+  font-weight: 300;
+  color: $fontsColor;
+
+  &:after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    top: 0%;
+    left: 75%;
+    transform: translate(0%, 0%) rotate(45deg);
+
+  }
+}
+
+
+.oddaj-step-three {
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+
+  background-color: white;
+  padding: 5px;
+  margin: 0 0 0 19px;
+  font-weight: 300;
+  color: $fontsColor;
+
+  &:after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    top: 0%;
+    left: 52%;
+    transform: translate(0%, 0%) rotate(45deg);
+
+  }
+}
+
+
+.oddaj-step-two {
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+
+  background-color: white;
+  padding: 5px;
+  margin: 0 0 0 16px;
+  font-weight: 300;
+  color: $fontsColor;
+
+  &:after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    top: 0%;
+    left: 29%;
+    transform: translate(0%, 0%) rotate(45deg);
+
+  }
+}
+
+.oddaj-step-one {
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+
+  background-color: white;
+  padding: 5px;
+  margin: 0 0 0 30px;
+  font-weight: 300;
+  color: $fontsColor;
+
+  &:after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    top: 0%;
+    left: 6%;
+    transform: translate(0%, 0%) rotate(45deg);
+
+  }
+}
+
+a.oddaj-nav-link-login {
+  padding: 10px;
+  color: #3C3C3C;
+  border: 1px solid #FAD648;
+}
+
+.oddaj-alert {
+  background-color: #FAD648;
+  padding: 20px 20px 20px 50px;
+
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+
+  }
+}
+
+
+.oddaj-form-one {
+  padding: 20px 20px 20px 50px;
+
+  .oddaj-form-one-checkbox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .oddaj-form-one-checkbox-label {
+    display: flex;
+   flex-direction: row;
+      font-size: 18px;
+      font-weight: 300;
+    margin: 10px;
+
+    p{
+      margin-left: 30px;
+      margin-top: 0;
+
+    }
+
+  }
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+
+  }
+
+}
+
+
+.oddaj-form-one-checkbox-input {
+
+  position: absolute;
+
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border: 1px solid $borderColors;
+  border-radius: 1px;
+
+
+}
+
+.oddaj-form-one-checkbox-label:hover input ~ .oddaj-form-one-checkbox-input {
+  background-color: #ccc;
+}
+
+.oddaj-form-one-checkbox-label input:checked  ~ .oddaj-form-one-checkbox-input {
+  background-color: #f3d021;
+}
+

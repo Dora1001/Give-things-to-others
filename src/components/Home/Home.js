@@ -11,7 +11,7 @@ import {Contact} from "../../components/Contact/ContactForm";
 
 export const Home = () => {
     return (
-        <div className="Home">
+        <div>
             <Header/>
             <Counter/>
             <Steps/>
