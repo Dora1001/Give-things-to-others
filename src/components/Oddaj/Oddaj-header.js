@@ -11,8 +11,8 @@ export const OddajHeader = ({handleLogout}) => {
             <div className="header-content">
                 <nav className="header-nav">
                     <ul>
-                        <li><a className="oddaj-nav-link-login">Oddaj rzeczy</a></li>
-                        <li><a className="header-nav-link-login" onClick={handleLogout}>Log out</a></li>
+                        <li><button className="oddaj-nav-link-active">Oddaj rzeczy</button></li>
+                        <li><button className="oddaj-nav-link-login" onClick={handleLogout}>Log out</button></li>
 
                     </ul>
                     <ul>

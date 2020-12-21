@@ -113,10 +113,11 @@
   }
 }
 
-a.oddaj-nav-link-login {
+.oddaj-nav-link-active {
   padding: 10px;
   color: #3C3C3C;
   border: 1px solid #FAD648;
+  background-color: transparent;
 }
 
 .oddaj-alert {
@@ -199,5 +200,20 @@ a.oddaj-nav-link-login {
 .odaj-nav-next {
   margin-top: 30px;
 
+}
+
+.oddaj-nav-link-login {
+  text-decoration: none;
+  color: $fontsColorlighter;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid transparent;
+  background-color: transparent;
+
+}
+
+button.oddaj-nav-link-login:hover {
+  color: #3C3C3C;
+  border: 1px solid $fontsColorlighter;
 }
 
