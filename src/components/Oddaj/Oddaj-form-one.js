@@ -14,7 +14,7 @@ export const OddajFormOne = ({navigation}) => {
 
             <div className="oddaj-form-one-checkbox">
                 <label className="oddaj-form-one-checkbox-label">
-                    <input type="radio"
+                    <input className="oddaj-form-one-checkbox-input-hide" type="radio"
                            checked={radio === "ubrania-no"}
                            value="ubrania-no"
 
@@ -26,7 +26,7 @@ export const OddajFormOne = ({navigation}) => {
                     <p>ubrania, do wyrzucenia</p>
                 </label>
                 <label className="oddaj-form-one-checkbox-label">
-                    <input type="radio"
+                    <input className="oddaj-form-one-checkbox-input-hide" type="radio"
                            checked={radio === "ubrania-ok"}
                            value="ubrania-ok"
 
@@ -40,7 +40,7 @@ export const OddajFormOne = ({navigation}) => {
                 </label>
 
                 <label className="oddaj-form-one-checkbox-label">
-                    <input type="radio"
+                    <input className="oddaj-form-one-checkbox-input-hide" type="radio"
                            checked={radio === "zabawki"}
                            value="zabawki"
 
@@ -54,7 +54,7 @@ export const OddajFormOne = ({navigation}) => {
                 </label>
 
                 <label className="oddaj-form-one-checkbox-label">
-                    <input type="radio"
+                    <input className="oddaj-form-one-checkbox-input-hide" type="radio"
                            checked={radio === "ksiazki"}
                            value="ksiazki"
 
@@ -68,7 +68,7 @@ export const OddajFormOne = ({navigation}) => {
                 </label>
 
                 <label className="oddaj-form-one-checkbox-label">
-                    <input type="radio"
+                    <input className="oddaj-form-one-checkbox-input-hide" type="radio"
                            checked={radio === "inne"}
                            value="inne"
 

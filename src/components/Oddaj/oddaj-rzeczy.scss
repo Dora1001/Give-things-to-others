@@ -131,7 +131,6 @@
   }
 }
 
-
 .oddaj-form-one {
   padding: 20px 20px 20px 50px;
 
@@ -142,20 +141,19 @@
 
   .oddaj-form-one-checkbox-label {
     display: flex;
-   flex-direction: row;
-      font-size: 18px;
-      font-weight: 300;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 300;
     margin: 10px;
 
-    p{
+    p {
       margin-left: 30px;
       margin-top: 0;
-
     }
 
   }
 
-  input {
+  .oddaj-form-one-checkbox-input-hide {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -168,26 +166,23 @@
 
 
 .oddaj-form-one-checkbox-input {
-
   position: absolute;
-
   height: 20px;
   width: 20px;
   background-color: white;
   border: 1px solid $borderColors;
   border-radius: 1px;
-
-
 }
 
 .oddaj-form-one-checkbox-label:hover input ~ .oddaj-form-one-checkbox-input {
   background-color: #ccc;
 }
 
-.oddaj-form-one-checkbox-label input:checked  ~ .oddaj-form-one-checkbox-input {
+.oddaj-form-one-checkbox-label input:checked ~ .oddaj-form-one-checkbox-input {
   background-color: #f3d021;
 }
-.oddaj-form-one-checkbox-label input:checked  ~ .oddaj-form-one-checkbox-input {
+
+.oddaj-form-one-checkbox-label input:checked ~ .oddaj-form-one-checkbox-input {
   background-color: #f3d021;
 }
 
@@ -216,4 +211,40 @@ button.oddaj-nav-link-login:hover {
   color: #3C3C3C;
   border: 1px solid $fontsColorlighter;
 }
+
+
+.oddaj-form-three-select {
+  border: 1px solid $fontsColorlighter;
+  padding: 10px;
+  appearance: none;
+  font-size: 16px;
+  font-weight: 300;
+
+  width: 230px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url(Icon-Arrow-Down.svg);
+  background-size: 40px;
+}
+
+.oddaj-form-three-btn {
+  font-size: 16px;
+  font-weight: 300;
+  border: 1px solid $fontsColorlighter;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.oddaj-form-three-input {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 10px;
+
+
+
+}
+
+
+
 
