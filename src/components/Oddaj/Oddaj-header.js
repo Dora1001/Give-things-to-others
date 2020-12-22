@@ -8,7 +8,7 @@ export const OddajHeader = ({handleLogout}) => {
             <div className="header-img">
                 <img className="header-img-one" src={"../../images/Form-Hero-Image.jpg"} alt="oddam w dobre rece"/>
             </div>
-            <div className="header-content">
+            <div className="oddaj-content">
                 <nav className="header-nav">
                     <ul>
                         <li><button className="oddaj-nav-link-active">Oddaj rzeczy</button></li>
