@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import db from "../../layouts/App/firebase";
 import Form from "./LoginForm";
-import {Oddaj} from "../Oddaj/Oddaj-rzeczy";
+import {OddajHeader} from "../Oddaj/Oddaj-header";
 
 
 export const Login = () => {
@@ -86,7 +86,7 @@ export const Login = () => {
     return (
         <div className="login">
             {user ? (
-                <Oddaj handleLogout={handleLogout} />
+                <OddajHeader handleLogout={handleLogout} />
             ) : (
                 <Form email={email}
                       setEmail={setEmail}

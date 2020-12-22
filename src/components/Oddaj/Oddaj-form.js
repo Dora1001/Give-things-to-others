@@ -16,7 +16,7 @@ export const OddajForm = () => {
 
     const {step, navigation} = useStep({
         steps,
-        initialStep: 2,
+        initialStep: 1,
     });
 
     const props = {navigation}

@@ -21,7 +21,7 @@ export const OddajFormTwo = ({navigation}) => {
             <p>Krok 2/4</p>
             <h1>Podaj liczbę 60l worków, w które spakowałeś/aś rzeczy:</h1>
 
-            <select>
+            <select className="oddaj-form-three-select">
                 {numbers.map(item => (
                     <option
                     key={item.value}

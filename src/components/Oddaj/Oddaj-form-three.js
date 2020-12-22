@@ -35,7 +35,7 @@ export const OddajFormThree = ({navigation}) => {
                 ))}
             </select>
 
-            <h1>Komu chcesz pomóc:</h1>
+            <h2>Komu chcesz pomóc:</h2>
             <label className="oddaj-form-one-checkbox-label">
                 <input className="oddaj-form-one-checkbox-input-hide" type="radio"
                        checked={radio === "dzieciom"}
@@ -96,9 +96,9 @@ export const OddajFormThree = ({navigation}) => {
                 <p>osobom starszym</p>
             </label>
 
-            <h1>Wpisz nazwę konkretnej organizajci:</h1>
+            <h2>Wpisz nazwę konkretnej organizajci:</h2>
             <input className="oddaj-form-three-input" type="text"
-                   value="Nazwa organizacji"/>
+                  />
 
 
             <div className="odaj-nav-next">

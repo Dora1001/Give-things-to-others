@@ -32,8 +32,8 @@
     width: 100px;
     height: 100px;
     border: 1px solid black;
-    top: 0%;
-    left: 75%;
+    top: 0;
+    left: 26em;
     transform: translate(0%, 0%) rotate(45deg);
 
   }
@@ -57,8 +57,8 @@
     width: 100px;
     height: 100px;
     border: 1px solid black;
-    top: 0%;
-    left: 52%;
+    top: 0;
+    left: 18em;
     transform: translate(0%, 0%) rotate(45deg);
 
   }
@@ -82,8 +82,8 @@
     width: 100px;
     height: 100px;
     border: 1px solid black;
-    top: 0%;
-    left: 29%;
+    top: 0;
+    left: 10em;
     transform: translate(0%, 0%) rotate(45deg);
 
   }
@@ -106,8 +106,8 @@
     width: 100px;
     height: 100px;
     border: 1px solid black;
-    top: 0%;
-    left: 6%;
+    top: 0;
+    left: 2em;
     transform: translate(0%, 0%) rotate(45deg);
 
   }
@@ -190,6 +190,7 @@
 .oddaj-nav-link-next {
   border: 1px solid black;
   padding: 15px 25px 15px 25px;
+  background-color: transparent;
 }
 
 .odaj-nav-next {
@@ -237,12 +238,15 @@ button.oddaj-nav-link-login:hover {
 }
 
 .oddaj-form-three-input {
+  width: 30em;
   font-size: 16px;
   font-weight: 300;
   padding: 10px;
+  border: 1px solid $fontsColorlighter;
+}
 
-
-
+h2 {
+  font-size: 1.5em;
 }
 
 
