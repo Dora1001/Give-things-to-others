@@ -49,24 +49,29 @@
 
 }
 
-.steps-btn-one {
+.steps-box-btn {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 
+.steps-btn-one {
   text-decoration: none;
   text-align: center;
   width: 200px;
   border: 1px solid black;
   background-color: white;
   padding: 15px 20px 15px 20px;
-  margin: 15px 0 45px 0;
+  margin: 25px 0 25px 0;
   font-size: 26px;
   font-weight: 300;
   color: $fontsColor;
 
 }
 
-.steps-box-btn {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
+.steps-btn-one:hover {
+  transition: all 0.3s ease-in-out;
+  color: $fontsColorlighter;
+  border: 1px solid $colorYellow;
+}
 
 }

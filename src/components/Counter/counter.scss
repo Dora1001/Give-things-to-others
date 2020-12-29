@@ -1,16 +1,14 @@
 @import "../../styles/fonts";
 @import "../../styles/variables";
 
-.counter-cointainer {
+.counter-container {
   display: flex;
   justify-content: space-around;
-
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-position: center;
   background-image: url("3_Columns_Background.png");
 
-
-  .counter-cointainer-box {
+  .counter-container-box {
     text-align: center;
 
     h2 {
@@ -35,7 +33,7 @@
       font-size: 16px;
       font-family: $fontOpensans;
       font-weight: 300;
-      padding: 15px;
+      padding: 0 100px 0 100px;
       margin-bottom: 15px;
 
     }

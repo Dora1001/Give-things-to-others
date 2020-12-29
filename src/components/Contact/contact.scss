@@ -46,10 +46,6 @@
 
 }
 
-form {
-
-
-}
 
 .contact-form-names {
   display: flex;
@@ -58,19 +54,30 @@ form {
 }
 
 input {
+  font-size: 16px;
+  color: $fontsColorlighter ;
   background-color: transparent;
   border: 0;
   border-bottom: 1px solid black;
   margin-top: 10px;
 }
 
+input:focus {
+  outline: 1px solid $colorYellow;
+}
+
 textarea {
+  font-size: 16px;
+  color: $fontsColorlighter;
   background-color: transparent;
   border: 0;
   border-bottom: 1px solid black;
   margin-top: 10px;
   height: 100px;
+}
 
+textarea:focus {
+  outline: 1px solid $colorYellow;
 }
 
 .contact-form-label-txt {
@@ -113,5 +120,17 @@ textarea {
   font-size: 19px;
   color: $fontsColor;
   float: right;
+}
+
+.contact-btn:hover {
+  border: 1px solid transparent;
+  outline: 1px solid $colorYellow;
+  color: $fontsColorlighter;
+}
+
+.contact-btn:focus {
+  border: 1px solid transparent;
+  outline: 1px solid $colorYellow;
+  color: $fontsColorlighter;
 }
 

@@ -2,7 +2,6 @@
 @import "../../styles/variables";
 
 
-
 .help-cointainer {
   display: flex;
   flex-direction: column;
@@ -14,6 +13,7 @@
     text-align: center;
     color: $fontsColor;
     font-weight: normal;
+    margin-top: 40px;
   }
 
   .help-txt {
@@ -111,6 +111,27 @@
 
 }
 
+.help-btn-nr:hover {
+  border: 1px solid $colorYellow;
+  color: $fontsColorlighter;
+  transition: all 0.3s ease;
+}
+
+.help-btn-nr:active {
+  outline: 1px solid $colorYellow;
+  border: 1px solid transparent;
+  color: $fontsColorlighter;
+  transition: all 0.3s ease;
+}
+
+.help-btn-nr:focus {
+  outline: 1px solid $colorYellow;
+  border: 1px solid transparent;
+  color: $fontsColor;
+  transition: all 0.3s ease;
+  background-color: $colorYellow ;
+}
+
 
 .help-btn-tab {
   display: flex;
@@ -129,16 +150,17 @@
 }
 
 button.help-btn-tab:hover {
-  color: #3C3C3C;
-  border: 1px solid black;
+  color: $fontsColor;
+  outline: 1px solid black;
+  transition: all 0.3s ease;
 }
 
 button.help-btn-tab:focus {
-  color: #3C3C3C !important;
-  border: 1px solid black;
+  color: $fontsColor;
+  outline: 1px solid black;
 }
 
 button.help-btn-tab:active {
-  color: #3C3C3C;
+  color: $fontsColor;
   border: 1px solid black;
 }

@@ -2,7 +2,6 @@
 @import "../../styles/variables";
 
 
-
 .header {
   display: flex;
   justify-content: center;
@@ -31,14 +30,12 @@
 
 }
 
-
 .header-title {
   display: flex;
   justify-content: center;
   flex-direction: column;
   height: 300px;
   align-items: center;
-
 }
 
 .header-nav {
@@ -56,7 +53,6 @@
 
   }
 
-
 }
 
 .header-nav-link {
@@ -72,9 +68,10 @@ a.header-nav-link:hover {
   color: #3C3C3C;
   border: 1px solid black;
 }
+
 a.header-nav-link-login:hover {
   color: #3C3C3C;
-  border: 1px solid #FAD648;
+  border: 1px solid $colorYellow;
 }
 
 .header-nav-link-login {
@@ -107,7 +104,13 @@ a.header-nav-link-login:hover {
     font-size: 26px;
     font-weight: 300;
     color: $fontsColor;
+  }
 
+
+  .header-btn-one:hover {
+    transition: all 0.3s ease-in-out;
+    color: $fontsColorlighter;
+    border: 1px solid $colorYellow;
   }
 
 }
