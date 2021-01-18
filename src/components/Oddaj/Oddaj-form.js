@@ -9,7 +9,6 @@ const steps = [
     {id: 'oddaj-form-one'},
     {id: 'oddaj-form-two'},
     {id: 'oddaj-form-three'},
-
 ]
 
 export const OddajForm = () => {

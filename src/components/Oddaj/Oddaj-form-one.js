@@ -1,9 +1,25 @@
-import React, {useState} from "react";
+
+import {useState, useEffect} from "react";
 import "./oddaj-rzeczy.scss"
 
 
+
 export const OddajFormOne = ({navigation}) => {
-    const [radio, setRadio] = useState(false);
+    const [radio, setRadio] = useState(null);
+
+    useEffect(()=>{
+        const saveRadio = localStorage.getItem("myRadio");
+        if (saveRadio) {
+            setRadio(JSON.parse(saveRadio))
+        }
+
+
+    },[])
+
+    useEffect(() => {
+        localStorage.setItem("myRadio", JSON.stringify(radio));
+    }, [radio]);
+
 
     return (
         <div className="oddaj-form-one">
@@ -14,6 +30,7 @@ export const OddajFormOne = ({navigation}) => {
 
             <div className="oddaj-form-one-checkbox">
                 <label className="oddaj-form-one-checkbox-label">
+
                     <input className="oddaj-form-one-checkbox-input-hide" type="radio"
                            checked={radio === "ubrania-no"}
                            value="ubrania-no"

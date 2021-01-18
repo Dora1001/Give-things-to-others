@@ -1,8 +1,6 @@
 import React from "react";
 import "./header.scss"
 import {Link} from 'react-scroll'
-
-
 import {BrowserRouter as Router, Link as Link2} from "react-router-dom";
 
 export const Header = () => {
